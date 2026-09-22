@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve exact dataset and notebook bytes for reproducibility checks.
+data/*.csv -text
+data/*.xls binary
+*.ipynb -text
+*.png binary
+*.html linguist-generated=true
+figures/*.png linguist-generated=true

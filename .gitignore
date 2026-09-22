@@ -2,3 +2,7 @@
 __pycache__/
 .venv/
 venv/
+build/
+*.pyc
+.DS_Store
+Thumbs.db
