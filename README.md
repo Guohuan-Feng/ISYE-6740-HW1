@@ -14,6 +14,7 @@ Regression, numerical optimization, robust estimation, classification, nearest n
 | [Detailed results](docs/RESULTS.md) | Question-by-question results and interpretation |
 | [Reproduction guide](docs/REPRODUCIBILITY.md) | Environment, fresh execution, and verification |
 | [Dataset catalog](data/README.md) | Ten supplied train/test files and their schemas |
+| [Versioned downloads](https://github.com/Guohuan-Feng/ISYE-6740-HW1/releases) | Submission notebook, complete archive, and SHA-256 checksums |
 
 The root [HTML file](HW1_completed.html) is an offline reading copy: download it and open it in a browser. GitHub's file view displays HTML source; use the **online report** above for a rendered page.
 
@@ -80,9 +81,9 @@ Each image is exported directly from the saved notebook output. Click a plot to 
 
 ### Q5 · Classification and Bayes error
 
-**Q5(a) — Training observations and the theoretical Bayes boundary.** Correlated Gaussian features motivate the comparison with the conditional-independence assumption.
+**Q5(a) — First 2,000 training observations, colored by class.** Correlated Gaussian features motivate the comparison with the conditional-independence assumption. The Bayes boundary is derived in Q5(b) of the notebook.
 
-![Q5(a): Training scatter plot with theoretical Bayes decision boundary](figures/Q5a_training_scatter.png)
+![Q5(a): First 2,000 training observations colored by class](figures/Q5a_training_scatter.png)
 
 **Q5(c) — Learning curves against the Bayes error.** The test set is fixed as the training subset grows.
 
